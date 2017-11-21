@@ -18,14 +18,7 @@
       "env": {
         "ACTIVITYSERVICE_BIND_IP": "0.0.0.0",
         "ACTIVITYSERVICE_BIND_PORT": "$PORT0",
-
-
-        "_NOTE0": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-        "_NOTE1": "!!! Be sure to change APPLICATION_SECRET (below) before deploying !!!",
-        "APPLICATION_SECRET": "changeme!",
-        "_NOTE2": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-
-
+        "APPLICATION_SECRET": "changeme!"
       },
       "labels": {
         "HAPROXY_GROUP": "external",
@@ -64,15 +57,7 @@
         "AKKA_REMOTING_HOST": "$HOST",
         "AKKA_REMOTING_BIND_HOST": "0.0.0.0",
         "AKKA_REMOTING_PORT": "$PORT1",
-        "AKKA_REMOTING_BIND_PORT": "$PORT1",
-
-
-        "_NOTE0": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-        "_NOTE1": "!!! Be sure to change APPLICATION_SECRET (below) before deploying !!!",
-        "APPLICATION_SECRET": "changeme!",
-        "_NOTE2": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-
-
+        "AKKA_REMOTING_BIND_PORT": "$PORT1"
       },
       "labels": {
         "HAPROXY_GROUP": "external",
@@ -112,13 +97,7 @@
         "AKKA_REMOTING_BIND_HOST": "0.0.0.0",
         "AKKA_REMOTING_PORT": "$PORT1",
         "AKKA_REMOTING_BIND_PORT": "$PORT1",
-
-
-        "_NOTE0": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-        "_NOTE1": "!!! Be sure to change APPLICATION_SECRET (below) before deploying !!!",
-        "APPLICATION_SECRET": "changeme!",
-        "_NOTE2": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-
+        "APPLICATION_SECRET": "changeme!"
       },
       "labels": {
         "HAPROXY_GROUP": "external",
@@ -150,14 +129,8 @@
       "instances": 1,
       "env": {
         "WEB_BIND_IP": "0.0.0.0",
-        "WEB_BIND_PORT": "$PORT0",
-
-
-        "_NOTE0": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
-        "_NOTE1": "!!! Be sure to change APPLICATION_SECRET (below) before deploying !!!",
-        "APPLICATION_SECRET": "changeme!",
-        "_NOTE2": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-
+        "WEB_BIND_PORT": "$PORT0"
+        "APPLICATION_SECRET": "changeme!"
       },
       "labels": {
         "HAPROXY_GROUP": "external",
