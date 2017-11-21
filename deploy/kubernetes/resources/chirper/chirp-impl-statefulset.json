@@ -18,7 +18,7 @@
           {
             "name": "chirpservice",
             "image": "chirper/chirp-impl",
-            "imagePullPolicy": "Never",
+            "imagePullPolicy": "IfNotPresent",
             "ports": [
               {
                 "containerPort": 9000,

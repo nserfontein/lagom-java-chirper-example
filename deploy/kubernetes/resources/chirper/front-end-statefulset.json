@@ -18,7 +18,7 @@
           {
             "name": "web",
             "image": "chirper/front-end",
-            "imagePullPolicy": "Never",
+            "imagePullPolicy": "IfNotPresent",
             "ports": [
               { "containerPort": 9000 }
             ],

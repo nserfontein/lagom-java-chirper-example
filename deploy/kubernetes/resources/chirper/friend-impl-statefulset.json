@@ -18,7 +18,7 @@
           {
             "name": "friendservice",
             "image": "chirper/friend-impl",
-            "imagePullPolicy": "Never",
+            "imagePullPolicy": "IfNotPresent",
             "ports": [
               {
                 "containerPort": 9000,
